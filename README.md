@@ -94,6 +94,5 @@ LaunchedEffet(Unit) {
 
 ## About Developer
 
-> #### Reyaz Ahmad
->
-> ![GitHub followers](https://img.shields.io/github/followers/reyazoct?style=for-the-badge&logo=github&label=Github) ![Website](https://img.shields.io/website?url=https%3A%2F%2Freyaz.live&style=for-the-badge&label=reyaz.live&link=https%3A%2F%2Freyaz.live) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahmad-reyaz%2F&style=for-the-badge&logo=linkedin&label=linkedin&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahmad-reyaz%2F) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fleetcode.com%2Fu%2Freyazoct&style=for-the-badge&logo=leetcode&label=Leetcode&link=https%3A%2F%2Fleetcode.com%2Fu%2Freyazoct%2F)
+>  #### Reyaz Ahmad
+> [![GitHub followers](https://img.shields.io/github/followers/reyazoct?style=for-the-badge&logo=github&label=Github)](https://github.com/reyazoct) [![Website](https://img.shields.io/website?url=https%3A%2F%2Freyaz.live&style=for-the-badge&label=reyaz.live)](https://reyaz.live) [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahmad-reyaz%2F&style=for-the-badge&logo=linkedin&label=linkedin&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fahmad-reyaz%2F)](https://www.linkedin.com/in/ahmad-reyaz) [![Website](https://img.shields.io/website?url=https%3A%2F%2Fleetcode.com%2Fu%2Freyazoct&style=for-the-badge&logo=leetcode&label=Leetcode&link=https%3A%2F%2Fleetcode.com%2Fu%2Freyazoct%2F)](https://leetcode.com/u/reyazoct)
