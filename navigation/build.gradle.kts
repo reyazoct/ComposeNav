@@ -1,6 +1,10 @@
+import com.vanniktech.maven.publish.SonatypeHost
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
+//    id("module.publication")
+    id("com.vanniktech.maven.publish") version "0.28.0"
 }
 
 android {
@@ -38,6 +42,44 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+}
+
+mavenPublishing {
+    coordinates(
+        "tech.kotlinlang",
+        "navigation",
+        "1.0.0"
+    )
+
+    pom {
+        name.set("compose-navigation")
+        description.set("Library for navigation in Compose")
+        inceptionYear.set("2024")
+        url.set("https://kotlinlang.tech")
+
+        licenses {
+            license {
+                name.set("MIT")
+                url.set("https://opensource.org/licenses/MIT")
+            }
+        }
+
+        developers {
+            developer {
+                id.set("reyazoct")
+                name.set("Reyaz Ahmad")
+                email.set("reyazoct@gmail.com")
+                url.set("https://reyaz.live")
+            }
+        }
+
+        scm {
+            url.set("https://github.com/reyazoct/ComposeNav")
+        }
+    }
+
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
+    signAllPublications()
 }
 
 dependencies {
