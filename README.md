@@ -1,6 +1,6 @@
 ## Compose Nav
 
-![Maven Central Version](https://img.shields.io/maven-central/v/tech.kotlinlang/navigation?style=for-the-badge&logo=jetpackcompose&logoColor=FFFFFF)
+[![Maven Central Version](https://img.shields.io/maven-central/v/tech.kotlinlang/navigation?style=for-the-badge&logo=jetpackcompose&logoColor=FFFFFF)](https://central.sonatype.com/artifact/tech.kotlinlang/navigation)
 
 ### Streamlined Navigation for Jetpack Compose
 
