@@ -1,10 +1,8 @@
 # Compose Nav
 
-[[Maven Central](https://img.shields.io/maven-central/v/tech.kotlinlang/navigation.svg)](https://central.sonatype.com/artifact/tech.kotlinlang/navigation)
+[![maven-central](https://img.shields.io/maven-central/v/tech.kotlinlang/navigation.svg "maven-central")](https://central.sonatype.com/artifact/tech.kotlinlang/navigation "maven-central")
 ### Streamlined Navigation for Jetpack Compose
 Compose Nav is a robust library designed to simplify and enhance navigation management within Jetpack Compose applications. By leveraging a clean and intuitive API, Compose Nav allows developers to organize and manage their app navigation effortlessly, ensuring a seamless user experience and maintainable codebase.
-
-[========]
 
 ## How to use
 
@@ -12,13 +10,13 @@ Compose Nav is a robust library designed to simplify and enhance navigation mana
    #### Using Groovy
     ```groovy
     dependencies {
-      implementation("com.example:compose-nav:<version>")
+      implementation "com.example:compose-nav:<version>"
     }
     ```
    #### Using kts
     ```kotlin
     dependencies {
-      implementation "com.example:compose-nav:<version>"
+      implementation("com.example:compose-nav:<version>")
     }
     ```
 
@@ -63,8 +61,6 @@ Compose Nav is a robust library designed to simplify and enhance navigation mana
     navController.pushNew(MainScreenInfo.DashBoardScreenInfo)
    ```
 
-[========]
-
 ## Useful functions
 
 #### List of Important nav contoller actions are listed below
@@ -86,7 +82,5 @@ LaunchedEffet(Unit) {
 	val isSucceded = uiController.accessDataAndClear<Boolean>("success")
 }
 ```
-
-[========]
 
 
