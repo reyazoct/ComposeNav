@@ -48,7 +48,7 @@ mavenPublishing {
     coordinates(
         "tech.kotlinlang",
         "navigation",
-        "1.0.1"
+        "1.0.2"
     )
 
     pom {

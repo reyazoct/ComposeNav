@@ -1,5 +1,6 @@
 package kotlinlang.compose.navigation.ui.navigation
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.core.tween
 import androidx.compose.runtime.Composable
@@ -85,6 +86,8 @@ private fun NavGraphBuilder.buildNavGraph(screensList: List<ScreenInfo>) {
                         navArgument(it) { type = NavType.StringType }
                     }
                 ) {
+                    val uiController = currentNavControllerOrThrow
+                    BackHandler(true) { uiController.popBack() }
                     screenInfoType.content()
                 }
             }
