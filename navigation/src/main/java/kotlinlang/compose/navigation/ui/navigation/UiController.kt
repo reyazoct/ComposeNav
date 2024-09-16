@@ -32,6 +32,9 @@ class UiController(
         pushNewWithDataAndClearInternal(screenInfo, map, false)
     }
 
+    val isBackAvailable: Boolean
+        get() = navController.previousBackStackEntry?.destination != null
+
     @OptIn(DelicateCoroutinesApi::class)
     private fun pushNewWithDataAndClearInternal(screenInfo: ScreenInfo, map: Map<String, Any>, clear: Boolean) {
         val routeBuilder = StringBuilder()

@@ -1,4 +1,4 @@
-package com.reyaz.ui.theme
+package kotlinlang.compose.navigation.ui.theme
 
 import android.app.Activity
 import android.os.Build
